@@ -1,0 +1,38 @@
+﻿# Dependencies
+frontend/node_modules/
+backend/target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Database files
+backend/data/
+*.db
+*.mv.db
+*.trace.db
+
+# Logs
+*.log
+.tmp_h2/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+
+# Temp / scripts
+extract_pdf.py
+_wms_doc_extract.txt
+outputs/
+scripts/
+
+# Test data files
+test_*.csv
+test_*.xlsx
+
+# Duplicate project folder
+wms-vue/
